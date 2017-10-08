@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.nk.sample.angular-spring</groupId>
   <artifactId>angular-spring</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1-SNAPSHOT</version> 
   
   
 	<parent>
