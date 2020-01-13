@@ -15,7 +15,7 @@
         <version>1.5.3.RELEASE</version>
     </parent>
 <properties>
-        <spring.version>4.3.10.RELEASE</spring.version>
+        <spring.version>5.2.2.RELEASE</spring.version>
         <jetty.version>9.0.6.v20130930</jetty.version>
         <slf4j.version>1.7.5</slf4j.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
