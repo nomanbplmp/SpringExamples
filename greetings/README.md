@@ -1,7 +1,8 @@
 ## Springboot Java Maven Jib
 
 
-Sample project to create Docker image using Jib plugin and loading image to dockerhub
+Sample project to create Docker image using Jib plugin and loading image to dockerhub repository
+
 Jib is an open-source Java tool maintained by Google for building Docker images of java applications. Jib is alternate to create Docker image without DockerFile and even without docker.
 
  https://cloud.google.com/blog/products/gcp/introducing-jib-build-java-docker-images-better
