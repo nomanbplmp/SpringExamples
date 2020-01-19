@@ -6,9 +6,9 @@ Jib is an open-source Java tool maintained by Google for building Docker images 
 
  https://cloud.google.com/blog/products/gcp/introducing-jib-build-java-docker-images-better
 
-Configure pluin in pom.xml. With in image tag  mentioned the repository to upload the created image.
+Configure pluin in pom.xml. inside image tag  mentioned the repository to upload the created image.
 
-`xml
+```
 <plugin>
                 <groupId>com.google.cloud.tools</groupId>
                 <artifactId>jib-maven-plugin</artifactId>
@@ -34,11 +34,12 @@ Configure pluin in pom.xml. With in image tag  mentioned the repository to uploa
                 </executions>
             </plugin>
 
-            
+ ```           
             
   Edit  maven settings.xml 
   
   Add  
+   ```xml
    <servers>
          <server>
              <id>registry.hub.docker.com</id>
@@ -46,7 +47,8 @@ Configure pluin in pom.xml. With in image tag  mentioned the repository to uploa
              <password>password</password>
          </server>
      </servers>
+  ```
   
-  
- Run ->    mvn install 
+ Run ->
+       mvn install 
  
