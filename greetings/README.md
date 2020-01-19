@@ -52,4 +52,5 @@ Configure pluin in pom.xml. inside image tag  mentioned the repository to upload
   
  Run ->
        mvn install 
- 
+            
+Generated image : https://hub.docker.com/repository/docker/khannomanahmed1/greetings
